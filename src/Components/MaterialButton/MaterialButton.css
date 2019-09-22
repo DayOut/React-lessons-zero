@@ -1,0 +1,115 @@
+.materializeBtn{
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.078rem;
+    min-width: 70px;
+    border: none;
+    min-height: 30px;
+    border-radius: 3px;
+    margin: 5px;
+    transition: all  0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*
+https://storage.googleapis.com/spec-host-backup/mio-components%2Fassets%2F1sVn3mYbhEDdWau1n2DRo9CCdo6J-3e1g%2Fcontained-buttons-states.png
+*/
+.primary{
+    background: rgb(98,0,238,1);
+    box-shadow: 0 0 2px 0px rgb(0,0,0,0.8);
+    color: white; 
+}
+
+.primary:hover{
+    /*color: #5600d0c9;*/
+    /*color: rgb(98,0,238,1);*/
+    background-color:  rgb(110,20,238,0.9);
+    /*font-weight: bold;*/
+    box-shadow: none;
+}
+
+.primary:focus{
+    color: #5600d0c9;
+    background-color:  rgb(98,0,238,0.2);
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.primary:disabled{
+    color: rgb(136,136,136,1);
+    border-color: grey;
+    background-color: rgb(136,136,136,0.3);
+    box-shadow: none;
+    cursor: default;
+}
+
+
+/*
+https://storage.googleapis.com/spec-host-backup/mio-components%2Fassets%2F1VeAknkDyfsIiVrvEMVovd69hGLdYrlbL%2Foutlined-button-states.png
+*/
+.outline{
+    /*border: 2px solid #5600d0c9;*/
+    border: 1px solid  rgb(98,0,238,1);
+    background-color: #fff;
+    color:  rgb(98,0,238,1);
+    box-shadow: none;
+    font-weight: bold;
+}
+.outline:hover{
+    /*color: #5600d0c9;*/
+    color: rgb(98,0,238,1);
+    background-color:  rgb(98,0,238,0.1);
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.outline:focus{
+    color: #5600d0c9;
+    background-color:  rgb(98,0,238,0.2);
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.outline:disabled{
+    color: grey;
+    border-color: grey;
+    background-color: transparent;
+    cursor: default;
+}
+
+
+/*
+https://storage.googleapis.com/spec-host-backup/mio-components%2Fassets%2F14c0HqGVluF8KDMuij_AV5puYPmorTU2u%2Ftext-buttons-states.png
+*/
+.text{
+    border: none;
+    color: #6200EE;
+    background-color: #fff;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.text:hover{
+    color: #5600d0c9;
+    background-color:  rgb(98,0,238,0.1);
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.text:focus{
+    color: #5600d0c9;
+    background-color:  rgb(98,0,238,0.2);
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.text:disabled{
+    color: grey;
+    background-color: transparent;
+    cursor: default;
+}
+
